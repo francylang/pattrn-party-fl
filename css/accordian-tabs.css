@@ -171,7 +171,7 @@ main {
 
   .content-container {
     flex-direction: column;
-    /*border-bottom: none;*/
+    border-bottom: none;
   }
 
   .text-content {
@@ -246,5 +246,9 @@ main {
 
   .active-tab {
    order: 0;
+ }
+
+ .cc-4 {
+   border-bottom: 1px solid #D1D2D3;
  }
 }
