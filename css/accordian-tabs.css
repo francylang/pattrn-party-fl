@@ -120,7 +120,7 @@ main {
 }
 
 .image4 {
-  background-image: url('../assets/shelbs4.jpg');
+  background-image: url('../assets/shelbs5.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -187,7 +187,7 @@ main {
   }
 
   .image2 {
-    background-position-y: -112px;
+    background-position-y: -63px;
   }
 
   .task {
