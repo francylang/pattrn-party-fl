@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+]}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #2F2235;
+}
+
+.title-header-container {
+  float: left;
+  height: 100%;
+  width: 200px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 60px;
+  margin-left: 60px;
+}
+
+.title-pattrn {
+  color: #FFF;
+}
+
+.title-party {
+  color: #34D1D1;
+  margin-left: 8px;
+}
+
+.hr-header {
+  display: none;
+}
+
+.name-header-container {
+  float: right;
+  height: 100%;
+  width: 260px;
+}
+
+.student-name {
+  color: #FFFFFF;
+  float: right;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-right: 60px;
+}
+
+
+.btn {
+  color: #fff;
+  background-color: #2F2235;
+  outline: none;
+  padding: 10px;
+  width: 25%;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 100%;
+  border: none;
+  margin: 50px auto;
+  display: block;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #3F3244;
+}
+
+@media screen and (max-width: 680px) {
+  header {
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-header-container {
+    float: none;
+    width: auto;
+  }
+
+  h1 {
+    font-size: 35px;
+    margin: 0
+  }
+
+  .hr-header {
+    width: 115px;
+    display: block;
+    border: solid .5px #D1D2D3;
+    opacity: .25;
+  }
+
+  .student-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    float: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 7px 0;
+  }
+}
