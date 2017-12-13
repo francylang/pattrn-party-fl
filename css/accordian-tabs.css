@@ -17,13 +17,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.task-title-container {
+.accordion-title-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.task {
+.accordion {
   padding: 75px;
   padding-right: 0;
   font-size: 25px;
@@ -31,7 +31,7 @@ body {
   text-transform: uppercase;
 }
 
-.task-title-container hr {
+.accordion-title-container hr {
   width: 70%;
   margin-right: 75px;
 }
@@ -160,12 +160,12 @@ main {
 }
 
 @media screen and (max-width: 875px) {
-  .task-title-container hr {
+  .accordion-title-container hr {
     width: 45%;
     color: #3F3244;
   }
 
-  .task-title-container {
+  .accordion-title-container {
     flex-direction: column;
   }
 
@@ -190,12 +190,12 @@ main {
     background-position-y: -63px;
   }
 
-  .task {
+  .accordion {
     margin-top: 25px;
     padding: 25px;
   }
 
-  .task-title-container hr {
+  .accordion-title-container hr {
     width: 20%;
     margin: 0 0 125px;;
   }
