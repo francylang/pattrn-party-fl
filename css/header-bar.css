@@ -16,8 +16,13 @@ nav {
   border: 1px solid #666666;
   background-color: #F2F2F2;
   font-size: 18px;
-  padding-left: 10px;
+  padding-left: 38px;
   font-weight: 300;
+  background-size: 20px 20px;
+  background-image: url('../assets/search.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 8px;
 }
 
 .corner-icon {
@@ -26,4 +31,63 @@ nav {
   border: 1px solid #666666;
   border-radius: 100px;
   background-color: #F2F2F2;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  width: 57%;
+  justify-content: space-around;
+}
+
+.header-link-one,
+.header-link-two,
+.header-link-three {
+  width: 30%;
+  font-weight: 300;
+  font-size: 16px;
+  color: #666666;
+}
+
+.header-link-four {
+  display: none;
+}
+
+@media screen and (max-width: 875px) {
+  .links-search-container {
+    display: none;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .header-link-one,
+  .header-link-two,
+  .header-link-three {
+    flex-direction: column;
+  }
+
+  .header-link-four {
+    display: inline-flex;
+    font-size: 30px;
+    color: #666666;
+    font-weight: 300;
+    cursor: pointer;
+  }
+
+  .drop-down {
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto 50px;
+    display: flex;
+    top: 182px;
+    left: 0;
+    background-color: #F2F2F2;
+  }
+
 }
