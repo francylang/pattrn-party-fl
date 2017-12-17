@@ -71,6 +71,10 @@ main {
   border-right: 1px solid #fff;
 }
 
+#tab-four {
+  border-right: 1px solid #F2F2F2;
+}
+
 .active {
   border: 1px solid #D1D2D3;
   border-bottom: none;
