@@ -225,6 +225,7 @@ main {
 
   #tab-four {
     border-bottom: 1px solid #D1D2D3;
+    border-right: 1px solid #D1D2D3;
   }
 
   .active {

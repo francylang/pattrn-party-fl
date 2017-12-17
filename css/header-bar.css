@@ -1,12 +1,17 @@
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
   width: 85%;
   height: 115px;
   border: 1px solid #D1D2D3;
   background-color: #D1D2D3;
+  margin: auto;
+}
+
+.header-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
   margin: auto;
 }
 
@@ -26,27 +31,33 @@ nav {
 }
 
 .corner-icon {
-  width: 80px;
-  height:80px;
+  width: 70px;
+  height:70px;
   border: 1px solid #666666;
   border-radius: 100px;
   background-color: #F2F2F2;
 }
 
-.nav-links {
+.links-search-container {
   display: flex;
   align-items: center;
-  width: 57%;
+  width: 85%;
+}
+
+.nav-links {
+  display: flex;
   justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .header-link-one,
 .header-link-two,
 .header-link-three {
-  width: 30%;
   font-weight: 300;
   font-size: 16px;
   color: #666666;
+  padding-right: 30px;
 }
 
 .header-link-four {
@@ -54,20 +65,38 @@ nav {
 }
 
 @media screen and (max-width: 875px) {
+  nav {
+    align-items: center;
+    position: relative;
+    border: none;
+  }
+
+  .header-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+
   .links-search-container {
     display: none;
   }
 
   .nav-links {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     align-items: flex-start;
+    margin: auto;
   }
 
   .header-link-one,
   .header-link-two,
   .header-link-three {
     flex-direction: column;
+    width: auto;
+    padding: 30px 0;
+    font-size: 25px
   }
 
   .header-link-four {
@@ -80,14 +109,25 @@ nav {
 
   .drop-down {
     flex-direction: column;
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: 200px;
-    margin: 0 auto 50px;
     display: flex;
-    top: 182px;
+    top: 115px;
     left: 0;
     background-color: #F2F2F2;
+    align-items: flex-start;
   }
 
+  .search-bar {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 30px 52px;
+    background-size: 30px 30px;
+  }
+
+  .button-down{
+    margin-bottom: 400px;
+  }
 }
