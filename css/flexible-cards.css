@@ -7,18 +7,23 @@
   margin: auto;
 }
 .card-heading {
-  display: flex;
-  align-items: center;
   border-bottom: 1px solid #D1D2D3;
   background-color: #FFFFFF;
-  padding-left: 20px;
+  padding: 22px 22px 0 18px;
   height: 75px;
+  display: block;
+  line-height: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .flexible-card {
-  height: 275px;
+  height: 325px;
   border: 1px solid #D1D2D3;
   background-color: #F2F2F2;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .flex-card-one {
@@ -30,7 +35,14 @@
 }
 
 @media screen and (max-width: 875px) {
+  .flexible-card-container {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .flexible-card {
+    margin-bottom: 40px;
+  }
 
 
 }
