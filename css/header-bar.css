@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 85%;
+  height: 115px;
+  border: 1px solid #D1D2D3;
+  background-color: #D1D2D3;
+  margin: auto;
+}
+
+.search-bar {
+  height: 45px;
+  width: 215px;
+  border: 1px solid #666666;
+  background-color: #F2F2F2;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+.corner-icon {
+  width: 80px;
+  height:80px;
+  border: 1px solid #666666;
+  border-radius: 100px;
+  background-color: #F2F2F2;
+}
