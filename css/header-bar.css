@@ -30,6 +30,7 @@ nav {
   background-position-x: 8px;
 }
 
+
 .corner-icon {
   width: 70px;
   height:70px;
@@ -125,6 +126,7 @@ nav {
     font-size: 25px;
     padding: 30px 52px;
     background-size: 30px 30px;
+    background-color: #ffffff9c;
   }
 
   .button-down{

@@ -30,6 +30,53 @@
   grid-area: 1/1/1/3;
 }
 
+.flex-card-one {
+  background-image: url('../assets/shelbsGrass.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+}
+.flex-card-two {
+  background-image: url('../assets/shelbsBridge.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.flex-card-three {
+  background-image: url('../assets/shelbs5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.flex-card-four {
+  background-image: url('../assets/shelbsRockSleep.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.flex-card-five {
+  background-image: url('../assets/shelbs4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex-card-six {
+  background-image: url('../assets/shelbsTree.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -49px 55px.
+}
+
+.flex-card-seven {
+  background-image: url('../assets/shelbsCouch.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
 .flex-card-seven {
   grid-area: 3/2/3/4;
 }
@@ -42,6 +89,17 @@
 
   .flexible-card {
     margin-bottom: 40px;
+  }
+
+  .flex-card-one {
+    background-position: center;
+  }
+
+  .flex-card-three {
+  }
+
+  .flex-card-four {
+    background-position: top;
   }
 
 }
